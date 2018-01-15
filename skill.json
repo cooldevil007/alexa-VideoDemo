@@ -1,0 +1,48 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "A soothing 1 min video of snow city to clear your mind and re-energize your skill.",
+          "examplePhrases": [
+            "Alexa open snow world",
+            "Alexa ask snow world to take me away",
+            "Alexa tell snow world to play video"
+          ],
+          "name": "Video Demo",
+          "description": "A soothing 1 min video of snow city to clear your mind and re-energize your skill."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No Special testing instructions.",
+      "category": "SELF_IMPROVEMENT",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces":[
+          {
+            "type": "RENDER_TEMPLATE"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance":{
+      "allowPurchases": false,
+      "locales":{
+        "en-US":{
+          "termsOfUrl": "http://example.com/terms",
+          "privacyPolicyUrl": "http://example.com/privacy"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

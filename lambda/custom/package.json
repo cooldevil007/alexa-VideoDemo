@@ -1,0 +1,11 @@
+{
+  "name": "visual-escape-alexa-template",
+  "version": "1.0.0",
+  "description": "Example skill template Amazon Echo Show.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  }
+}
