@@ -1,5 +1,5 @@
 {
-  "skillManifest": {
+  "manifest": {
     "publishingInformation": {
       "locales": {
         "en-US": {
@@ -23,19 +23,21 @@
         "endpoint": {
           "sourceDir": "lambda/custom"
         },
-        "interfaces":[
+        "interfaces": [
           {
             "type": "RENDER_TEMPLATE"
+          },
+          {
+            "type": "VIDEO_APP"
           }
         ]
       }
     },
     "manifestVersion": "1.0",
-    "privacyAndCompliance":{
-      "allowPurchases": false,
-      "locales":{
-        "en-US":{
-          "termsOfUrl": "http://example.com/terms",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
           "privacyPolicyUrl": "http://example.com/privacy"
         }
       },
